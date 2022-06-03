@@ -10,5 +10,7 @@ jobs:
   print-stress-cpu:
     runs-on: self-hosted
     steps:
-      - name: execute echo command
-        run: stress --cpu 2 --timeout 20
+      - name: execute stress command
+        run: | 
+         stress --cpu 2 --timeout 20
+         echo "Done."
