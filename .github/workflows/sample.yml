@@ -11,4 +11,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: execute echo command
-        run: echo "Hello World!"
+        run: stress --cpu 2 --timeout 10
