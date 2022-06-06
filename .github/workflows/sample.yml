@@ -13,4 +13,5 @@ jobs:
       - name: execute stress command
         run: | 
          stress --cpu 2 --timeout 20
+         terraform init
          echo "Done."
