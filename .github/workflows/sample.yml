@@ -15,5 +15,5 @@ jobs:
          stress --cpu 2 --timeout 20
          terraform init
          terraform plan
-         terraform apply
+         terraform apply -auto-approve
          echo "Done."
