@@ -13,6 +13,7 @@ jobs:
       - name: Apply
         run: | 
          git pull origin master
+         cd ~/github_work
          terraform init
          terraform plan
          echo "Done!."
