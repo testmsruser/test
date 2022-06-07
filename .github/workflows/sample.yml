@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  print-stress-cpu:
+  print-stress-cpu_terraform_plan:
     runs-on: self-hosted
     steps:
       - name: execute stress command
@@ -15,5 +15,4 @@ jobs:
          stress --cpu 2 --timeout 20
          terraform init
          terraform plan
-         terraform apply -auto-approve
          echo "Done."
