@@ -16,4 +16,3 @@ jobs:
          terraform init
          terraform plan
          echo "Done!."
-        working-directory: ./github_work
