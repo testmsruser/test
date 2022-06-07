@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Apply
         run: | 
-         git pull
+         git pull origin master
          terraform init
          terraform plan
          echo "Done!."
