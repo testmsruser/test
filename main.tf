@@ -92,3 +92,4 @@ resource "vsphere_virtual_machine" "vm" {
 		} #テンプレートと同一のNIC枚数
     }
   }
+}
