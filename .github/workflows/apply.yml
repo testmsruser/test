@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Apply
         run: | 
+         git pull
          terraform init
          terraform plan
          echo "Done!."
+        working-directory: ./github_work
