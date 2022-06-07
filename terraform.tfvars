@@ -1,6 +1,6 @@
 #Define Variables for Platform
 vsphere_user        = "Sakamoto@vsphere.local" #vsphereのユーザー名
-vsphere_password    = "MSRkiji1"                  #vsphereのパスワード
+vsphere_password    = "XXXXXX"                  #vsphereのパスワード
 vcenter_server      = "192.168.11.160"          	#vCenterのFQDN/IPアドレス
 vsphere_datacenter  = "Datacenter"                  #vsphereのデータセンター
 vsphere_datastore   = "11.152 datastore 1.82TB"     #vsphereのデータストア
